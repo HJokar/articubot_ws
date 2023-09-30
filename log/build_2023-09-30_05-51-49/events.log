@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.000402] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.099627] (-) TimerEvent: {}
+[0.200705] (-) TimerEvent: {}
+[0.288080] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.288915] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[0.289870] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hjokar/articubot_ws/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/hjokar/articubot_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hjokar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hjokar'), ('OLDPWD', '/home/hjokar/articubot_ws/src/articubot_one/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hjokar/ros2_ws/install:/home/hjokar/second_ros2_ws/install:/home/hjokar/Desktop/dev_ws/install:/home/hjokar/Desktop/ur5_ws/install:/home/hjokar/articubot_ws/install:/home/hjokar/urdf_gazebo_ws/install:/home/hjokar/Desktop/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hjokar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hjokar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hjokar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hjokar-K55VD:@/tmp/.ICE-unix/1346,unix/hjokar-K55VD:/tmp/.ICE-unix/1346'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60ec03ca_4113_41c7_81d3_ba9789b2e659'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EMA2B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.236'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/hjokar/articubot_ws/install/articubot_one:/home/hjokar/urdf_gazebo_ws/install/urdf_example:/home/hjokar/Desktop/robot_ws/install/launch_package:/home/hjokar/Desktop/robot_ws/install/my_box_bot_description:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_bringup:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/Desktop/ur5_ws/install/robot_bringup:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/home/hjokar/second_ros2_ws/install/robot_bringup:/home/hjokar/Desktop/dev_ws/install/two_wheeled_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hjokar/articubot_ws/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/hjokar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hjokar/Desktop/robot_ws/install/main_package/lib/python3.10/site-packages:/home/hjokar/Desktop/ur5_ws/install/ur5_package/lib/python3.10/site-packages:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hjokar/articubot_ws/install/articubot_one:/home/hjokar/urdf_gazebo_ws/install/urdf_example:/home/hjokar/Desktop/robot_ws/install/launch_package:/home/hjokar/Desktop/robot_ws/install/my_box_bot_description:/home/hjokar/Desktop/ur5_ws/install/ur5_bringup:/home/hjokar/Desktop/ur5_ws/install/robot_bringup:/home/hjokar/second_ros2_ws/install/robot_bringup:/home/hjokar/Desktop/dev_ws/install/two_wheeled_robot:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble')]), 'shell': False}
+[0.300838] (-) TimerEvent: {}
+[0.357805] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.401087] (-) TimerEvent: {}
+[0.501759] (-) TimerEvent: {}
+[0.602313] (-) TimerEvent: {}
+[0.702973] (-) TimerEvent: {}
+[0.802541] (articubot_one) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.2 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[0.803049] (-) TimerEvent: {}
+[0.903444] (-) TimerEvent: {}
+[1.004222] (-) TimerEvent: {}
+[1.105002] (-) TimerEvent: {}
+[1.205624] (-) TimerEvent: {}
+[1.306300] (-) TimerEvent: {}
+[1.328470] (articubot_one) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.379933] (articubot_one) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.397490] (articubot_one) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.406378] (-) TimerEvent: {}
+[1.506820] (-) TimerEvent: {}
+[1.558975] (articubot_one) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.606919] (-) TimerEvent: {}
+[1.630067] (articubot_one) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.707142] (-) TimerEvent: {}
+[1.807864] (-) TimerEvent: {}
+[1.908329] (-) TimerEvent: {}
+[2.008805] (-) TimerEvent: {}
+[2.109606] (-) TimerEvent: {}
+[2.210347] (-) TimerEvent: {}
+[2.308092] (articubot_one) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.310466] (-) TimerEvent: {}
+[2.330192] (articubot_one) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.330970] (articubot_one) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.410700] (-) TimerEvent: {}
+[2.511452] (-) TimerEvent: {}
+[2.612250] (-) TimerEvent: {}
+[2.713028] (-) TimerEvent: {}
+[2.813806] (-) TimerEvent: {}
+[2.871993] (articubot_one) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.906584] (articubot_one) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.913943] (-) TimerEvent: {}
+[3.014497] (-) TimerEvent: {}
+[3.114870] (-) TimerEvent: {}
+[3.215345] (-) TimerEvent: {}
+[3.316078] (-) TimerEvent: {}
+[3.387119] (articubot_one) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.416272] (-) TimerEvent: {}
+[3.497312] (articubot_one) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.516365] (-) TimerEvent: {}
+[3.602682] (articubot_one) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.616626] (-) TimerEvent: {}
+[3.717424] (-) TimerEvent: {}
+[3.754942] (articubot_one) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.817607] (-) TimerEvent: {}
+[3.918096] (-) TimerEvent: {}
+[4.018584] (-) TimerEvent: {}
+[4.119395] (-) TimerEvent: {}
+[4.219923] (-) TimerEvent: {}
+[4.254851] (articubot_one) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.255349] (articubot_one) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.320089] (-) TimerEvent: {}
+[4.420458] (-) TimerEvent: {}
+[4.427286] (articubot_one) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.429214] (articubot_one) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.520703] (-) TimerEvent: {}
+[4.621448] (-) TimerEvent: {}
+[4.722012] (-) TimerEvent: {}
+[4.822568] (-) TimerEvent: {}
+[4.922984] (-) TimerEvent: {}
+[5.023414] (-) TimerEvent: {}
+[5.123931] (-) TimerEvent: {}
+[5.224635] (-) TimerEvent: {}
+[5.325077] (-) TimerEvent: {}
+[5.425638] (-) TimerEvent: {}
+[5.526387] (-) TimerEvent: {}
+[5.626786] (-) TimerEvent: {}
+[5.727279] (-) TimerEvent: {}
+[5.827941] (-) TimerEvent: {}
+[5.928325] (-) TimerEvent: {}
+[6.028758] (-) TimerEvent: {}
+[6.129442] (-) TimerEvent: {}
+[6.168194] (articubot_one) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.229584] (-) TimerEvent: {}
+[6.324370] (articubot_one) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.327368] (articubot_one) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.328093] (articubot_one) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.328694] (articubot_one) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.329691] (-) TimerEvent: {}
+[6.379174] (articubot_one) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.400813] (articubot_one) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.417360] (articubot_one) StdoutLine: {'line': b'-- Generating done\n'}
+[6.423452] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /home/hjokar/articubot_ws/build/articubot_one\n'}
+[6.429895] (-) TimerEvent: {}
+[6.475839] (articubot_one) CommandEnded: {'returncode': 0}
+[6.502962] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[6.514984] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hjokar/articubot_ws/build/articubot_one'], 'cwd': '/home/hjokar/articubot_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hjokar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hjokar'), ('OLDPWD', '/home/hjokar/articubot_ws/src/articubot_one/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hjokar/ros2_ws/install:/home/hjokar/second_ros2_ws/install:/home/hjokar/Desktop/dev_ws/install:/home/hjokar/Desktop/ur5_ws/install:/home/hjokar/articubot_ws/install:/home/hjokar/urdf_gazebo_ws/install:/home/hjokar/Desktop/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hjokar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hjokar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hjokar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hjokar-K55VD:@/tmp/.ICE-unix/1346,unix/hjokar-K55VD:/tmp/.ICE-unix/1346'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60ec03ca_4113_41c7_81d3_ba9789b2e659'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EMA2B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.236'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/hjokar/articubot_ws/install/articubot_one:/home/hjokar/urdf_gazebo_ws/install/urdf_example:/home/hjokar/Desktop/robot_ws/install/launch_package:/home/hjokar/Desktop/robot_ws/install/my_box_bot_description:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_bringup:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/Desktop/ur5_ws/install/robot_bringup:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/home/hjokar/second_ros2_ws/install/robot_bringup:/home/hjokar/Desktop/dev_ws/install/two_wheeled_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hjokar/articubot_ws/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/hjokar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hjokar/Desktop/robot_ws/install/main_package/lib/python3.10/site-packages:/home/hjokar/Desktop/ur5_ws/install/ur5_package/lib/python3.10/site-packages:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hjokar/articubot_ws/install/articubot_one:/home/hjokar/urdf_gazebo_ws/install/urdf_example:/home/hjokar/Desktop/robot_ws/install/launch_package:/home/hjokar/Desktop/robot_ws/install/my_box_bot_description:/home/hjokar/Desktop/ur5_ws/install/ur5_bringup:/home/hjokar/Desktop/ur5_ws/install/robot_bringup:/home/hjokar/second_ros2_ws/install/robot_bringup:/home/hjokar/Desktop/dev_ws/install/two_wheeled_robot:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble')]), 'shell': False}
+[6.525081] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.525585] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/config\n'}
+[6.525836] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[6.526036] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[6.526274] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/description\n'}
+[6.526451] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[6.526649] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[6.526891] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[6.527137] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/launch\n'}
+[6.527388] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[6.527633] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/worlds\n'}
+[6.527899] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[6.528122] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[6.528346] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[6.528545] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[6.528803] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[6.529024] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[6.529213] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[6.529400] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[6.529576] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[6.529748] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[6.529904] (-) TimerEvent: {}
+[6.530088] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[6.530297] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[6.530460] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[6.530625] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[6.530789] (articubot_one) StdoutLine: {'line': b'-- Up-to-date: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[6.530954] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[6.532007] (articubot_one) CommandEnded: {'returncode': 0}
+[6.630063] (-) TimerEvent: {}
+[6.730467] (-) TimerEvent: {}
+[6.760687] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[6.762184] (-) EventReactorShutdown: {}

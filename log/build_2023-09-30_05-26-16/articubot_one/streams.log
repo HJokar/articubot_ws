@@ -1,0 +1,56 @@
+[0.279s] Invoking command in '/home/hjokar/articubot_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hjokar/articubot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/hjokar/articubot_ws/install/articubot_one
+[1.620s] -- The C compiler identification is GNU 11.4.0
+[3.199s] -- The CXX compiler identification is GNU 11.4.0
+[3.360s] -- Detecting C compiler ABI info
+[3.790s] -- Detecting C compiler ABI info - done
+[3.801s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.814s] -- Detecting C compile features
+[3.851s] -- Detecting C compile features - done
+[3.887s] -- Detecting CXX compiler ABI info
+[4.101s] -- Detecting CXX compiler ABI info - done
+[4.116s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.117s] -- Detecting CXX compile features
+[4.118s] -- Detecting CXX compile features - done
+[4.270s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.727s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.084s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.361s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.370s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.373s] -- Added test 'lint_cmake' to check CMake code style
+[5.376s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.381s] -- Added test 'xmllint' to check XML markup files
+[5.385s] -- Configuring done
+[5.394s] -- Generating done
+[5.397s] -- Build files have been written to: /home/hjokar/articubot_ws/build/articubot_one
+[5.433s] Invoked command in '/home/hjokar/articubot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hjokar/articubot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/hjokar/articubot_ws/install/articubot_one
+[5.437s] Invoking command in '/home/hjokar/articubot_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hjokar/articubot_ws/build/articubot_one -- -j4 -l4
+[5.489s] Invoked command in '/home/hjokar/articubot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hjokar/articubot_ws/build/articubot_one -- -j4 -l4
+[5.531s] Invoking command in '/home/hjokar/articubot_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hjokar/articubot_ws/build/articubot_one
+[5.541s] -- Install configuration: ""
+[5.541s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/config
+[5.542s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[5.542s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[5.542s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/description
+[5.542s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[5.543s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[5.543s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[5.543s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/launch
+[5.543s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[5.544s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/worlds
+[5.544s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[5.544s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[5.544s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[5.544s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[5.545s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[5.545s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[5.545s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[5.545s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[5.546s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[5.546s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[5.546s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[5.546s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/package.dsv
+[5.547s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[5.547s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[5.547s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[5.547s] -- Installing: /home/hjokar/articubot_ws/install/articubot_one/share/articubot_one/package.xml
+[5.550s] Invoked command in '/home/hjokar/articubot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hjokar/articubot_ws/build/articubot_one
